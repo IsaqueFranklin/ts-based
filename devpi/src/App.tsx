@@ -1,9 +1,10 @@
 import { Outlet } from 'react-router-dom';
+import classes from './App.module.css'
 
 function App() {
 
   return (
-    <div>
+    <div className={classes.app}>
       <h1>DevPi</h1>
       <Outlet />
     </div>
